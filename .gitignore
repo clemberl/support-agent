@@ -4,6 +4,9 @@
 # Claude
 CLAUDE.local.md
 
+# Python
+.venv
+
 # Système
 Thumbs.db
 .DS_Store
