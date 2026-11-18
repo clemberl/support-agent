@@ -1,6 +1,9 @@
 # Secrets
 .env*
 
+# Claude
+CLAUDE.local.md
+
 # Système
 Thumbs.db
 .DS_Store
