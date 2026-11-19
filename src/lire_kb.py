@@ -3,6 +3,7 @@
 
 # Path est une classe du module pathlib (bibliothèque standard de Python).
 from pathlib import Path
+from answer import Answer
 
 # dossier est un objet Path qui contient l'adresse "kb".
 dossier = Path("kb")
@@ -18,6 +19,12 @@ for fichier in fichiers:
     liste_de_lignes = texte.splitlines()[:5]
     # Examine ces lignes une par une.
     for ligne in liste_de_lignes:
-        # Ne retient que celles qui commencent par "titre:" ou "source:".
-        if ligne.startswith("titre:") or ligne.startswith("source:"):
-            print(ligne)
+        # Si la ligne commence par "titre:", on range le titre dans "titre" ;
+        # si elle commence par "source:", on range la source dans "source".
+        # Dans les deux cas, on enlève le préfixe et les espaces autour.
+        if ligne.startswith("titre:"):
+            titre = ligne.removeprefix("titre:").strip()
+        elif ligne.startswith("source:"):
+            source = ligne.removeprefix("source:").strip()
+    answer = Answer(titre, [source])
+    print(answer.texte, answer.sources)
