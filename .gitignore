@@ -6,6 +6,7 @@ CLAUDE.local.md
 
 # Python
 .venv
+__pycache__/
 
 # Système
 Thumbs.db
