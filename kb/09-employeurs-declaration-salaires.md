@@ -3,11 +3,14 @@ id: KB-09
 titre: Employeurs - cotisations salariales et déclaration annuelle des salaires (portail ou ELM)
 source: "Texte public - mémento AVS/AI 2.01 Cotisations salariales à l'AVS, à l'AI et aux APG (version consultée : état au 01.01.2022), https://www.ahv-iv.ch/p/2.01.f ; taux et seuils 2026 : aide-mémoire PwC Valeurs clés des assurances sociales 2026, https://www.pwc.ch/fr/publications/2025/Eckwerte%20Sozialversicherungen_FR_2026.pdf ; assurance-chômage : jugendbudget.ch, état juin 2026, https://www.jugendbudget.ch/wp-content/uploads/2026/07/2607061.pdf ; ELM : https://www.swissdec.ch/fr ; canaux de transmission et incidents : rédigé pour la caisse type"
 verifie_le: 2026-11-18
+statut_chiffres: "à confirmer en v2 - taux et seuils 2026 (PwC) et assurance-chômage (jugendbudget.ch), faute de mémento fédéral à jour"
 ---
 # Employeurs - cotisations salariales et déclaration annuelle des salaires (portail ou ELM)
 
 ## En bref
 L'employeur retient la part du salarié sur chaque salaire et la verse à la caisse avec sa propre part. Il paie des acomptes pendant l'année, puis envoie la déclaration annuelle des salaires au plus tard le 30 janvier de l'année suivante. À la caisse type, la déclaration se fait sur le portail en ligne ou par ELM (procédure unifiée de communication des salaires de Swissdec, depuis un logiciel de salaires certifié).
+
+> **Attention - chiffres à confirmer (v2).** Les taux et seuils 2026 de la section « Taux (état 2026) », ainsi que le taux et le seuil de l'assurance-chômage, ne viennent pas d'un mémento fédéral à jour (voir la source). Les citer en précisant qu'ils sont à confirmer, et ne pas s'en servir pour calculer un cas personnel : en cas de doute, passer la main à un conseiller.
 
 ## Ce qu'il faut savoir
 
